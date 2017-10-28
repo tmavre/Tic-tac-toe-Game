@@ -1,13 +1,8 @@
-from __future__ import print_function 
+#######################
+ # Tic Tac Toe Game   #
+ # 1st project Python #
+#######################
 
-
-
-"""
- ######################
- # Tic Tac Toe Game   
- # 1st project Python 
-####################
-"""
 
 """
 #  print the board!!
@@ -33,10 +28,11 @@ def display_board(board):
 
 
 
-"""
+
+
 # player input
 
-"""
+
 def player_input():
 	
 	marker = ''
@@ -93,9 +89,10 @@ def full_board_check(board):
 	return True
 	
 
+# Using strings because of raw_input
 
 def player_choice(board):
-	# Using strings because of raw_input
+	
 	position = ' '
 	while position not in '1 2 3 4 5 6 7 8 9'.split() or not space_check(board, int(position)):
 		
@@ -108,6 +105,7 @@ def replay():
 
 
 #print('Welcome to Tic Tac Toe!')
+
 N=7
 M=21
 
