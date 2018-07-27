@@ -1,13 +1,3 @@
-#######################
- # Tic Tac Toe Game   #
- # 1st project Python #
-#######################
-
-"""
-#  print the board!!
-
-"""
-#board = [' '] * 10
 import os
 def display_board(board):
 
@@ -149,34 +139,4 @@ while True:
 
 	if not replay():
 		break
-	
-
-
-	
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-	
-	
-
-	
-
+		
